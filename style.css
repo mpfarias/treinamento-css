@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    height: 1800px;
+    background-color: #e5d07c;
+    user-select: none;
+}
+.flex-container{
+    position: fixed;
+    display: flex;
+    background-color: brown;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a:link, a:visited, a:active{
+    text-decoration: none;
+    color: #63280b;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+}
+
+a:hover{
+    background-color: #a04e25;
+}
+.link{
+    position: relative;
+    justify-content: space-around;
+    padding: 100% 8px 25px 8px;
+}
+
+.index-class{
+    padding-top: 90px;
+    text-align: center;
+}
+
+.img-menu{
+    width:115px;
+    height:115x;
+}
